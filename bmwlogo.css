@@ -29,6 +29,7 @@
     color: white;
     margin-left: 112px;
     font-size: 35px
+
 }
 
 .w{
@@ -54,24 +55,26 @@
 
 .blue-top-left{
     background-color: blue;
-    width: 90px;
-    height: 90px;
+    width: 86.5px;
+    height: 88px;
     margin: 0 auto;
-    border: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
     border-top-left-radius: 85px;
     position: relative;
-    right: 45px;
-    bottom: 5px;
+    right: 43px;
+    bottom: 1px;
 }
 
 .blue-bottom-right{
     background-color: blue;
-    width: 81px;
-    height: 82px;
+    width: 88px;
+    height: 86.5px;
     margin: 0 auto;
-    border: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
     border-bottom-right-radius: 100px;
     position: relative;
-    left: 45px;
-    bottom: 7px
+    left: 44px;
+    bottom: 4px;
 }
