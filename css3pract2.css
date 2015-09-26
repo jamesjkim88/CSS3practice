@@ -1,0 +1,40 @@
+.container{
+    background-color: rgba(0,0,0, 0.2);
+    border: 1px solid black;
+    height: 300px;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.circle{
+    border: 1px solid black;
+    height: 75px;
+    width: 50%;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+@keyframes lights{
+    from {background-color: transparent;}
+    to {background-color: yellow;}
+}
+
+@keyframes middle-light{
+    from {background-color: yellow;}
+    to {background-color: transparent;}
+}
+
+#circle-1{
+    margin-top: 15px;
+    animation: lights 1s infinite alternate;
+}
+
+#circle-2{
+    margin-top: 15px;
+    animation: middle-light 1s infinite alternate;
+}
+
+#circle-3{
+    margin-top: 15px;
+    animation: lights 1s infinite alternate;
+}

@@ -1,0 +1,32 @@
+div{
+    width: 25%;
+    height: 100px;
+}
+
+.row-1{
+    background-color: #f213ca;
+    transition: height 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.row-1:hover{
+    height: 200px;
+}
+
+.row-2{
+    background-color: rgb(102,251,80);
+    transition: height 2s;
+}
+
+.row-2:hover{
+    height: 200px;
+}
+
+.row-3{
+    background-color: #93fac1;
+    transition: height 2s;
+}
+
+.row-3:hover{
+    height: 200px;
+}

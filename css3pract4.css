@@ -1,0 +1,24 @@
+nav{
+    background-color: black;
+    color: azure;
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.link-items:hover{
+    animation: animation 1s infinite alternate;
+}
+
+@keyframes animation {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}

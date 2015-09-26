@@ -1,0 +1,27 @@
+.container{
+    width: 75px;
+    height: 200px;
+    margin: 0 auto;
+    transform-origin: 50% 0%;
+    animation: animation 2s infinite alternate;
+}
+
+.line{
+    border: 1px solid black;
+    height: 150px;
+    width: 5px;
+    margin: 0 auto;
+}
+
+.circle{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+@keyframes animation{
+    0% {transform: rotate(45deg);}
+    100% {transform: rotate(-45deg);}
+}
