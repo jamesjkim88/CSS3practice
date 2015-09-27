@@ -15,7 +15,7 @@ li{
 }
 
 .link-items:hover{
-    animation: animation 1s infinite alternate;
+    animation: animation 0.5s infinite ease-in-out alternate;
 }
 
 @keyframes animation {

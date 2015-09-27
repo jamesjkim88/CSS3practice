@@ -3,7 +3,7 @@
     height: 200px;
     margin: 0 auto;
     transform-origin: 50% 0%;
-    animation: animation 2s infinite alternate;
+    animation: animation 2s infinite ease-in-out alternate;
 }
 
 .line{

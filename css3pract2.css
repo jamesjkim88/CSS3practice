@@ -26,15 +26,15 @@
 
 #circle-1{
     margin-top: 15px;
-    animation: lights 1s infinite alternate;
+    animation: lights 1s infinite ease-in-out alternate;
 }
 
 #circle-2{
     margin-top: 15px;
-    animation: middle-light 1s infinite alternate;
+    animation: middle-light 1s infinite ease-in-out alternate;
 }
 
 #circle-3{
     margin-top: 15px;
-    animation: lights 1s infinite alternate;
+    animation: lights 1s infinite ease-in-out alternate;
 }
