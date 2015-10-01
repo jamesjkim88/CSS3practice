@@ -6,11 +6,12 @@ img{
     width: 23%;
     display: inline-block;
     margin-top: 15%;
-
+    transition: all 1s ease-in-out;
 }
 
 .image:hover{
-    animation: animation 1.5s;
+    /*animation: animation 1.5s ease-in-out both;*/
+    transform: scale(1.5,1.5);
 }
 
 .moveLeft{
@@ -19,6 +20,7 @@ img{
 
 @keyframes animation{
     0% {transform: scale(1,1);}
-    25% {transform: scale(1.5,1.5);}
-    100% {transform: scale(1,1);}
+    50% {transform: scale(1.5,1.5);}
+    100% {transform: scale(1.5,1.5);}
+
 }
