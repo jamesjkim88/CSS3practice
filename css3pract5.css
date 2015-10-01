@@ -6,11 +6,12 @@ img{
     width: 23%;
     display: inline-block;
     margin-top: 15%;
-    transition: all 1s ease-in-out;
+    transition: all 1s linear;
 }
 
 .image:hover{
     transform: scale(1.5,1.5);
+    transition: all 1s linear;
 }
 
 .moveLeft{
